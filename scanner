@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        int reg_no = sc.nextInt();
+        
+        // Fixed: Put \n inside the quotes
+        System.out.println("name:" + name + "\nreg_no:" + reg_no);
+    }
+}
